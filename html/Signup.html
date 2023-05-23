@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title Begin -->
+    <title>Online Auction - Signup</title>
+    <link rel="shortcut icon" href="../material/favicon.ico">
+    <!-- End of title -->
+
+    <!-- Page Description -->
+    <meta name="description" content="Online Auction Signup page. You can register as a customer or as a suplier to freelance with us.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+    <!-- End of Fonts -->
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="../js/jquery-2.1.4.min.js" ></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/ajax-utils.js"></script>  
+    <!-- js code -->
+
+    
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+            
+          <!-- Navigation Bar -->
+          <header class="navbar navbar-inverse">
+            <div class="container-fluid">
+
+              <div class="navbar-header">
+                <a href="../index.html" id="logo">
+                    <img src="../material/logo.png" alt="Logo" title="Home"  width="100px">
+                </a>
+              </div>
+              
+              <!-- Create Toogle Button -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#colabse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              </div>
+              <!-- End of Create Toogle Button -->
+
+              <div class="container-fluid collapse navbar-collapse" id="colabse">
+                <ul class="nav navbar-nav navbar-right" id="navlist">
+                    <li class="lista"><a href="../index.html" id="home">Home</a></li>
+                    <li class="lista" id="auctions"><a href="Auctions.html">Auctions</a></li>
+                    <li class="lista" id="laws"><a href="Laws.html">Laws</a></li>
+                    <li class="lista" id="about"><a href="About.html">About</a></li>
+                    <li class="lista" ><a href="Login.html" id="login">Login</a></li>  
+                    <li class="lista" ><a href="Signup.html" id="signup">Signup</a></li>                
+                </ul>
+              </div>
+
+            </div>
+          </header>
+          <!-- End of Navigation Bar -->
+        </div> 
+      </div>  <!--Row closing tag-->
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="hidden-xs col-sm-4 col-md-4" id="d1">
+                <h1>Welcome !</h1>
+                <p id="p1">A few clicks away from <br> creating your online auction</p>
+                <img src="../material/d1photo.png" alt="Artwork">
+                <h2>Already have an account ?</h2>
+                <button type="button" name="logbtn" id="logbtn" onclick="window.location.href='Login.html'">Login</button>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-sm-push-1 col-md-3 col-md-push-1" id="d2">
+                <h2>Supplier</h2>
+                <p>Register as a delivery man using your own vehicle.</p>
+                <img src="../material/d2photo.png" alt="supplier-artwork">
+                <a href="About.html" target="_blank">Learn more</a>
+                <button type="button" name="ssupbtn" id="ssupbtn" onclick="window.location.href='Suppliersignup.html'">Signup</button>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-sm-push-1 col-md-3 col-md-push-2" id="d3">
+                <h2>Customer</h2>
+                <p>Sell your products and buy participating in auctions.</p>
+                <img src="../material/d3photo.png" alt="Customer-artwork">
+                <a href="About.html" target="_blank">Learn more</a>
+                <button type="button" name="csupbtn" id="csupbtn" onclick="window.location.href='Customersignup.html'">Signup</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
